@@ -13,15 +13,18 @@ Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un s
 
 - **Le robot** : ce joueur reçoit des ordres de manière périodiques par message, qu'il doit effectuer le plus vite possible dans la partie.
 
+- **Double-face** : ce joueur est un peu schizophrène, le bot lui envoie un message lorsqu'il doit jouer au mieux, et lorsqu'il doit jouer très très mal. 
+
 ## Commandes
 *Chaque commande est un message qui doit commencer par le préfixe paramétré pour le bot
 
 Tip : [argument obligatoire], (argument facultatif)*
 
-Commande | Arguments | Description | Permissions 
+Commande | Arguments | Description | Permissions nécessaires?
 --- | --- | --- | ---
-startgame | [joueurs] | Lance une parite avec les joueurs mentionnées | [ ]
+startGame | [joueurs] | Lance une parite avec les joueurs mentionnées | [ ]
 prefix | [nouveau_prefixe] | modifie le préfixe des commandes | [x]
+roleEnable | [role] [true/false] | active ou désactive le rôle précisé dans les prochaines parties | [x]
 
 
 
