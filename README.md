@@ -5,7 +5,7 @@ dans une partie de LoL, inspiré d'Among Us. *(vrai projet à la base..)*
 
 ## Fonctionnement
 
-Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un serveur où le bot est présent. En "ping"-ant les joueurs, une partie est lancée et chaque joueur reçoit un rôle en particulier. On peut y jouer à 5 ou à 10, pour une ou deux équipes. Le jeu se termine lorsque la partie de LoL est terminée, 
+Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un serveur où le bot est présent. En "ping"-ant les joueurs, une partie est lancée et chaque joueur reçoit un rôle en particulier. On peut y jouer à 5 ou à 10, pour une ou deux équipes. Le jeu se termine lorsque la partie de LoL est terminée, et le but est de deviner le rôle des autres. En fonction des 
 
 ### Les rôles
 
@@ -15,6 +15,10 @@ Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un s
 
 - **Double-face** : ce joueur est un peu schizophrène, le bot lui envoie un message lorsqu'il doit jouer au mieux, et lorsqu'il doit jouer très très mal. 
 
+- **Faker** : joue bien, gagne ou t'es nul
+
+- 
+
 ## Commandes
 *Chaque commande est un message qui doit commencer par le préfixe paramétré pour le bot
 
@@ -22,9 +26,13 @@ Tip : [argument obligatoire], (argument facultatif)*
 
 Commande | Arguments | Description | Permissions nécessaires?
 --- | --- | --- | ---
-startGame | [joueurs] | Lance une parite avec les joueurs mentionnées | [ ]
+startGame | [joueurs] | Lance une parite avec les joueurs mentionnées (5 ou 10)| [ ]
 prefix | [nouveau_prefixe] | modifie le préfixe des commandes | [x]
 roleEnable | [role] [true/false] | active ou désactive le rôle précisé dans les prochaines parties | [x]
+endGame | / | Termine la partie en cours, s'il y en a une, et lance la phase de votes | [ ]
+history [ (joueur) | Montre votre historique, ou celui du joueur mentionné | [ ]
+quitGame | / | Quitte la partie en cours, annulant celle-ci (pas cool) | [ ]
+kickFromGame | [joueur] | Exclue le joueur de la partie, parce qu'il n'est pas très sympa | [x]
 
 
 
