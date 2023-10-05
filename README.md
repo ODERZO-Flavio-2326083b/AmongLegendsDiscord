@@ -17,7 +17,7 @@ Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un s
 
 - **Faker** : doit jouer le mieux possible, avoir le plus de kills, tout le long de la partie
 
-- **Serpentin** : doit avoir le plus de morts ET de kills
+- **Serpentin** : doit avoir le plus de morts et de kills
 
 ## Commandes
 *Chaque commande est un message qui doit commencer par le préfixe paramétré pour le bot*
