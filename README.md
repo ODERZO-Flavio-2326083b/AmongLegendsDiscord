@@ -20,9 +20,9 @@ Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un s
 - **Serpentin** : doit avoir le plus de morts ET de kills
 
 ## Commandes
-*Chaque commande est un message qui doit commencer par le préfixe paramétré pour le bot
+*Chaque commande est un message qui doit commencer par le préfixe paramétré pour le bot*
 
-Tip : [argument obligatoire], (argument facultatif)*
+*Tip : [argument obligatoire], (argument facultatif)*
 
 Commande | Arguments | Description | Permissions nécessaires?
 --- | --- | --- | ---
@@ -33,6 +33,14 @@ endGame | / | Termine la partie en cours, s'il y en a une, et lance la phase de 
 history | (joueur) | Montre votre historique, ou celui du joueur mentionné | ❎
 quitGame | / | Quitte la partie en cours, annulant celle-ci (pas cool) | ❎
 kickFromGame | [joueur] | Exclue le joueur de la partie, parce qu'il n'est pas très sympa | ✅
+
+## Idées / Features à venir
+
+- [ ] Ajouter plus de rôles
+- [ ] Rendre le bot utilisable interserveurs
+- [x] Ajouter plus de tâches pour le robot, afin qu'elles ne soient pas redondantes
+- [ ] Classement par points à la fin des parties en fonction des votes
+- [ ] Rendre League of Legends jouable (impossible)
 
 
 
