@@ -26,13 +26,14 @@ Tip : [argument obligatoire], (argument facultatif)*
 
 Commande | Arguments | Description | Permissions nécessaires?
 --- | --- | --- | ---
-startGame | [joueurs] | Lance une parite avec les joueurs mentionnées (5 ou 10)| [ ]
-prefix | [nouveau_prefixe] | modifie le préfixe des commandes | [x]
-roleEnable | [role] [true/false] | active ou désactive le rôle précisé dans les prochaines parties | [x]
-endGame | / | Termine la partie en cours, s'il y en a une, et lance la phase de votes | [ ]
-history [ (joueur) | Montre votre historique, ou celui du joueur mentionné | [ ]
-quitGame | / | Quitte la partie en cours, annulant celle-ci (pas cool) | [ ]
-kickFromGame | [joueur] | Exclue le joueur de la partie, parce qu'il n'est pas très sympa | [x]
+startGame | [joueurs] | Lance une parite avec les joueurs mentionnées (5 ou 10)| ❎
+prefix | [nouveau_prefixe] | modifie le préfixe des commandes | ✅
+roleEnable | [role] [true/false] | active ou désactive le rôle précisé dans les prochaines parties | ✅
+endGame | / | Termine la partie en cours, s'il y en a une, et lance la phase de votes | ❎
+history [ (joueur) | Montre votre historique, ou celui du joueur mentionné | ❎
+quitGame | / | Quitte la partie en cours, annulant celle-ci (pas cool) | ❎
+kickFromGame | [joueur] | Exclue le joueur de la partie, parce qu'il n'est pas très sympa | ✅
+
 
 
 
