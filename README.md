@@ -15,9 +15,9 @@ Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un s
 
 - **Double-face** : ce joueur est un peu schizophrène, le bot lui envoie un message lorsqu'il doit jouer au mieux, et lorsqu'il doit jouer très très mal. 
 
-- **Faker** : joue bien, gagne ou t'es nul
+- **Faker** : doit jouer le mieux possible, avoir le plus de kills, tout le long de la partie
 
-- 
+- **Serpentin** : doit avoir le plus de morts ET de kills
 
 ## Commandes
 *Chaque commande est un message qui doit commencer par le préfixe paramétré pour le bot
@@ -30,9 +30,10 @@ startGame | [joueurs] | Lance une parite avec les joueurs mentionnées (5 ou 10)
 prefix | [nouveau_prefixe] | modifie le préfixe des commandes | ✅
 roleEnable | [role] [true/false] | active ou désactive le rôle précisé dans les prochaines parties | ✅
 endGame | / | Termine la partie en cours, s'il y en a une, et lance la phase de votes | ❎
-history [ (joueur) | Montre votre historique, ou celui du joueur mentionné | ❎
+history | (joueur) | Montre votre historique, ou celui du joueur mentionné | ❎
 quitGame | / | Quitte la partie en cours, annulant celle-ci (pas cool) | ❎
 kickFromGame | [joueur] | Exclue le joueur de la partie, parce qu'il n'est pas très sympa | ✅
+
 
 
 
