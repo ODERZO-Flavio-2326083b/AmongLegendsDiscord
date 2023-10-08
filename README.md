@@ -3,9 +3,14 @@
 Un programme python utilisant l'API de Discord pour donner des rôles et tâches additionnelles à des joueurs 
 dans une partie de LoL, inspiré d'Among Us. *(vrai projet à la base..)*
 
+## Utilisation
+
+Il est possible d'inviter le bot sur un serveur Discord avec les permissions nécessaires. Après ça, il suffit d'utiliser les commandes du bot pour l'utiliser.
+Pour héberger le bot sur sa machine, et modifier les commandes, il faut cloner le git, puis modifier le token dans le fichier config.
+
 ## Fonctionnement
 
-Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un serveur où le bot est présent. En "ping"-ant les joueurs, une partie est lancée et chaque joueur reçoit un rôle en particulier. On peut y jouer à 5 ou à 10, pour une ou deux équipes. Le jeu se termine lorsque la partie de LoL est terminée, et le but est de deviner le rôle des autres. En fonction des 
+Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un serveur où le bot est présent. En "ping"-ant les joueurs, une partie est lancée et chaque joueur reçoit un rôle en particulier. On peut y jouer à 5 ou à 10, pour une ou deux équipes. Le jeu se termine lorsque la partie de LoL est terminée, et le but est de deviner le rôle des autres. En fonction de la phase finales des votes, les joueurs ayant trouvés le plus de rôles correspondants à ceux des autres joueurs gagnent des points. Et à l'inverse, les joueurs dont les rôles sont retrouvés par les autres (sauf pour certains) perdent des points.
 
 ### Les rôles
 
