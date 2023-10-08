@@ -14,6 +14,8 @@ Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un s
 
 ## Les rôles
 
+Chaque joueur a un rôle différent des autres joueurs de son équipe. Certains peuvent être désactivés pour ne pas les avoir pendant les parties *(voir commandes)*. 
+
 - **L'imposteur** : le but de cet individu de la plus basse espèce humaine est de ruiner la partie de ses compères, en mourant le plus de fois possibles, sans que cela soit ~~trop~~ évident. 
 
 - **Le robot** : ce joueur reçoit des ordres de manière périodiques par message, qu'il doit effectuer le plus vite possible dans la partie.
@@ -23,6 +25,8 @@ Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un s
 - **Faker** : doit jouer le mieux possible, avoir le plus de kills, tout le long de la partie
 
 - **Serpentin** : doit avoir le plus de morts et de kills
+
+- **Random** : pas de rôle, joue normalement et fais de ton mieux pour trouver les autres
 
 ## Commandes
 *Chaque commande est un message qui doit commencer par le préfixe paramétré pour le bot*
