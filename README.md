@@ -1,7 +1,7 @@
 # AmongLegendsDiscord
 
 Un programme python utilisant l'API de Discord pour donner des rôles et tâches additionnelles à des joueurs 
-dans une partie de LoL, inspiré d'Among Us. *(vrai projet à la base..)*
+dans une partie de LoL, inspiré d'Among Us, pour rendre la partie plus amusante. *(inspiré d'un jeu du même nom qui existait auparavant)*
 
 ## Utilisation
 
