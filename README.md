@@ -12,7 +12,7 @@ Pour héberger le bot sur sa machine, et modifier les commandes, il faut cloner 
 
 Les utilisateurs intéragissent avec le bot en utilisant des commandes dans un serveur où le bot est présent. En "ping"-ant les joueurs, une partie est lancée et chaque joueur reçoit un rôle en particulier. On peut y jouer à 5 ou à 10, pour une ou deux équipes. Le jeu se termine lorsque la partie de LoL est terminée, et le but est de deviner le rôle des autres. En fonction de la phase finales des votes, les joueurs ayant trouvés le plus de rôles correspondants à ceux des autres joueurs gagnent des points. Et à l'inverse, les joueurs dont les rôles sont retrouvés par les autres (sauf pour certains) perdent des points.
 
-### Les rôles
+## Les rôles
 
 - **L'imposteur** : le but de cet individu de la plus basse espèce humaine est de ruiner la partie de ses compères, en mourant le plus de fois possibles, sans que cela soit ~~trop~~ évident. 
 
